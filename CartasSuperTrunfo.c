@@ -157,28 +157,64 @@
     
 
     // Comparação das cartas
+
     printf("\n Comparação das cartas: \n");
     
-    printf("População: Carta 1 vencêu a carta 2? %d\n",
-                (populacao1 > populacao2)); 
+    if (populacao1 > populacao2)
+    {
+        printf("População: Carta 1 venceu\n");
+    } else {
+        printf("População: Carta 2 venceu\n");
+    }
+       
     
-    printf("Área: Carta 1 vencêu a carta 2? %d\n",
-                (area1 > area2));
+    if (area1 > area2)
+    {
+        printf("Área: Carta 1 venceu\n");
+    } else {
+        printf("Área: Carta 2 venceu\n");
+    }
+
+
+    if (pib1 > pib2)
+    {
+        printf("PIB: Carta 1 venceu\n");
+    } else {
+        printf("PIB: Carta 2 venceu\n");
+    }
     
-    printf("PIB: Carta 1 vencêu a carta 2? %d\n",
-                (pib1 > pib2));
-            
-    printf("Pontos turísticos: Carta 1 vencêu a carta 2? %d\n",
-                (pontosturisticos1 > pontosturisticos2));
     
-    printf("Densidade populacional: Carta 1 vencêu a carta 2? %d\n",
-                (densidadepopinvertida1 > densidadepopinvertida2));
+    if (pontosturisticos1 > pontosturisticos2)
+    {
+        printf("Pontos turísticos: Carta 1 venceu\n");
+    } else {
+        printf("Pontos turísticos: Carta 2 venceu\n");
+    }
     
-    printf("Pib per capita: Carta 1 vencêu a carta 2? %d\n",
-                (pibpercapita1 > pibpercapita2));
     
-    printf("Superpoder: Carta 1 vencêu a carta 2? %d\n",
-                (superpoder1 > superpoder2));
+    if (densidadepopinvertida1 > densidadepopinvertida2)
+    {
+        printf("Densidade populacional: Carta 1 venceu\n");
+    } else {
+        printf("Densidade populacional: Carta 2 venceu\n");
+    }
+    
+    
+   if (pibpercapita1 > pibpercapita2)
+   {
+        printf("Pib per capita: Carta 1 venceu\n");
+   } else {
+        printf("Pib per capita: Carta 2 venceu\n");
+   }
+     
+    
+   if (superpoder1 > superpoder2)
+   {
+    printf("Superpoder: Carta 1 venceu\n");
+   } else {
+    printf("Superpoder: Carta 2 venceu\n");
+   }
+              
     
     return 0; 
     }
